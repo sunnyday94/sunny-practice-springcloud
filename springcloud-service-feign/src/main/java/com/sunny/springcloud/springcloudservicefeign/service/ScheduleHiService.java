@@ -8,6 +8,7 @@
  */
 package com.sunny.springcloud.springcloudservicefeign.service;
 
+import com.sunny.springcloud.springcloudservicefeign.service.impl.ScheduleHiServiceHystrix;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +19,7 @@ import org.springframework.web.bind.annotation.PathVariable;
  * @create 2018/10/29
  * @since 1.0.0
  */
-@FeignClient(value="service-hi")
+@FeignClient(value="service-hi",fallback = ScheduleHiServiceHystrix.class)
 public interface ScheduleHiService {
 
     /**
