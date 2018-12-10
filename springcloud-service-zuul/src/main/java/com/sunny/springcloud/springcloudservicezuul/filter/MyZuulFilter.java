@@ -9,7 +9,12 @@
 package com.sunny.springcloud.springcloudservicezuul.filter;
 
 import com.netflix.zuul.ZuulFilter;
+import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import org.springframework.context.annotation.Configuration;
+
+import javax.servlet.http.HttpServletRequest;
+import java.io.IOException;
 
 /**
  * 〈一句话功能简述〉
@@ -17,6 +22,7 @@ import com.netflix.zuul.exception.ZuulException;
  * @create 2018/12/9
  * @since 1.0.0
  */
+@Configuration
 public class MyZuulFilter extends ZuulFilter {
 
     /**
@@ -51,7 +57,7 @@ public class MyZuulFilter extends ZuulFilter {
       */
     @Override
     public boolean shouldFilter() {
-        return false;
+        return true;
     }
 
     /**
@@ -61,6 +67,19 @@ public class MyZuulFilter extends ZuulFilter {
       */
     @Override
     public Object run() throws ZuulException {
-        return null;
+        RequestContext context = RequestContext.getCurrentContext();
+        HttpServletRequest request = context.getRequest();
+        Object token = request.getParameter("token");
+        if(token==null){
+            context.setSendZuulResponse(false);
+            context.setResponseStatusCode(401); //缺少认证
+            try {
+                context.getResponse().getWriter().write("token is empty");
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
+        }
+        return "pass";
     }
 }
