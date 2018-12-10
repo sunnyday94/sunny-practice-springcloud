@@ -18,6 +18,7 @@
         <module>springcloud-service-ribbon</module>
         <module>springcloud-service-zuul</module>
         <module>springcloud-config-server</module>
+        <module>springcloud-config-client</module>
     </modules>
 
     <parent>

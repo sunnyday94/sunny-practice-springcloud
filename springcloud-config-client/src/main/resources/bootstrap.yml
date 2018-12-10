@@ -1,0 +1,11 @@
+# bootstrap ，默认加载的配置是按这个bootstrap文件名来的
+server:
+  port: 8768
+spring:
+  application:
+    name: config-client
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8767/
