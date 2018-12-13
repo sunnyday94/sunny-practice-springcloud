@@ -8,4 +8,7 @@ spring:
     config:
       label: master
       profile: dev
-      uri: http://localhost:8767/
+      #uri: http://localhost:8767/
+      discovery:
+        enabled: true #从配置中心读取文件
+        service-id: config-server #服务名
