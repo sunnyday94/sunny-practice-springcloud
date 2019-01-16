@@ -7,6 +7,5 @@
 *.iml
 out
 gen
-springcloud-config-client/springcloud-config-client.iml
 */src/test
 */target
