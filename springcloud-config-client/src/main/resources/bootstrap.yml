@@ -14,18 +14,18 @@ spring:
         service-id: config-server #服务名
 
     # 消息总线配置
-#    bus:
-#      enabled: true
-#      trace:
-#        enabled: true
-#  #rabbitmq配置
-#  rabbitmq:
-#    host: localhost
-#    port: 5672
-#    username: sunny
-#    password: sunny
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: bus-refresh
+    bus:
+      enabled: true
+      trace:
+        enabled: true
+  #rabbitmq配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: sunny
+    password: sunny
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh

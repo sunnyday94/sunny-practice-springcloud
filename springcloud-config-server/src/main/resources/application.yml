@@ -13,7 +13,7 @@ spring:
           search-locations: file:///E:/IDEAWorkSpace/sunny-practice-springcloud/springcloud-config/
       label: dev  #配置仓库的分支
   profiles:
-    active: native #读取本地
+    active: native #native读取本地;git读取git仓库
 
 server:
   port: 8767
