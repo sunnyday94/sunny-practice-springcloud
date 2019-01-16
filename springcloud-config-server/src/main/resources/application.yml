@@ -1,8 +1,11 @@
 spring:
   application:
     name: config-server
+  profiles:
+    active: native #native读取本地;git读取git仓库
   cloud:
     config:
+      label: dev  #配置仓库的分支
       server:
         git:
           uri: https://github.com/sunnyday94/sunny-practice-springcloud  #配置git仓库地址
@@ -10,10 +13,7 @@ spring:
           username:    # 访问git仓库的用户名       Git仓库为公开仓库，可以不填写用户名和密码
           password:    # 访问git仓库的用户密码
         native:
-          search-locations: file:///E:/IDEAWorkSpace/sunny-practice-springcloud/springcloud-config/
-      label: dev  #配置仓库的分支
-  profiles:
-    active: native #native读取本地;git读取git仓库
+          search-locations: file:///E:/IDEAWorkSpace/sunny-practice-springcloud/springcloud-config/ #配置本地仓库路径
 
 server:
   port: 8767
