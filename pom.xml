@@ -14,7 +14,6 @@
     <modules>
         <module>springcloud-eureka-server</module>
         <module>springcloud-service-hi</module>
-        <module>springcloud-service-hi2</module>
         <module>springcloud-service-ribbon</module>
         <module>springcloud-service-zuul</module>
         <module>springcloud-config-server</module>

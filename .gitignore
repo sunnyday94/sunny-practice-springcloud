@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+springcloud-config-client/springcloud-config-client.iml
+springcloud-config-client/src/test/
+springcloud-config-client/target/
+springcloud-config-server/target/classes/com/
+springcloud-config-server/target/classes/generated/
+springcloud-config-server/target/generated-sources/
+springcloud-service-zuul/target/classes/generated/
+springcloud-service-zuul/target/generated-sources/
