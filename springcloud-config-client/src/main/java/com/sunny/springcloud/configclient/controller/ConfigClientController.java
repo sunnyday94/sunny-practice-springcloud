@@ -23,8 +23,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigClientController {
 
-    @Value("${jdbc.url}")
-    private String jdbcUrl;
+    @Value("${jdbcUserName}")
+    private String userName;
 
     /**
      * 获取配置文件信息
@@ -32,6 +32,6 @@ public class ConfigClientController {
      */
     @GetMapping(value="hi")
     public String hi(){
-        return jdbcUrl;
+        return userName;
     }
 }

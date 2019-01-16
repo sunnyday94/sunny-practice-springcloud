@@ -9,7 +9,11 @@ spring:
           search-paths: springcloud-config  #配置仓库路径
           username:    # 访问git仓库的用户名       Git仓库为公开仓库，可以不填写用户名和密码
           password:    # 访问git仓库的用户密码
+        native:
+          search-locations: file:///E:/IDEAWorkSpace/sunny-practice-springcloud/springcloud-config/
       label: dev  #配置仓库的分支
+  profiles:
+    active: native #读取本地
 
 server:
   port: 8767
