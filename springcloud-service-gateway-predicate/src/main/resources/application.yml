@@ -9,8 +9,8 @@ spring:
   cloud:
     gateway:
       routes:
-      - id: after_route
-        uri: http://httpbin.org:80/get
+      - id: after_route   #router的id
+        uri: http://httpbin.org:80/get  #请求转发的地址(路由到哪儿)
         predicates:
         - After=2017-01-20T17:42:47.789-07:00[America/Denver]
   profiles: after_route
