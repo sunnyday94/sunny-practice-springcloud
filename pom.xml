@@ -19,6 +19,7 @@
         <module>springcloud-config-server</module>
         <module>springcloud-config-client</module>
         <module>springcloud-service-gateway</module>
+        <module>springcloud-service-gateway-predicate</module>
     </modules>
 
     <parent>
@@ -40,10 +41,10 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter</artifactId>-->
+        <!--</dependency>-->
 
         <!--热重启-->
         <dependency>
