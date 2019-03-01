@@ -1,0 +1,20 @@
+server:
+  port: 8772
+spring:
+  profiles: add_request_header_route
+  application:
+    name: gateway-filter
+---
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: add_request_header_route
+        uri: http://httpbin.org:80/get
+        filters:
+        - AddRequestHeader=X-Request-Foo, Bar
+        predicates:
+        - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+  profiles:
+    active: add_request_header_route
+

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47698d91-f6f6-450a-84ec-463e88823ef7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/impl/ScheduleHiServiceHystrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/ScheduleHiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/ScheduleHiService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-feign/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-feign/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-ribbon/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-ribbon/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/SpringcloudServiceRibbonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/SpringcloudServiceRibbonApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/service/HelloService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud-config-server/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springcloud-config-server/target/classes/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springcloud-service-ribbon/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-eureka-server/target/" />
@@ -15,6 +12,12 @@
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-service-hi2/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-service-feign/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-server/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-service-zuul/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-service-gateway/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-config-client/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-service-gateway-predicate/target/" />
+    <ignored path="$PROJECT_DIR$/springcloud-service-gateway-filter/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,40 +34,57 @@
     <session id="827597515">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.open.time.1" value="7" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="1" />
+          <entry key="project.open.time.37" value="2" />
+          <entry key="project.open.time.39" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="18" />
-          <entry key="xml" value="4" />
-          <entry key="yml" value="7" />
+          <entry key="java" value="30" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="25" />
+          <entry key="yml" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="18" />
-          <entry key="XML" value="4" />
-          <entry key="YAML" value="7" />
+          <entry key="JAVA" value="30" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="25" />
+          <entry key="YAML" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1216" />
-          <entry key="xml" value="72" />
-          <entry key="yml" value="223" />
+          <entry key="java" value="1393" />
+          <entry key="properties" value="14" />
+          <entry key="txt" value="69" />
+          <entry key="xml" value="196" />
+          <entry key="yml" value="497" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1216" />
-          <entry key="XML" value="72" />
-          <entry key="YAML" value="223" />
+          <entry key="JAVA" value="1393" />
+          <entry key="PLAIN_TEXT" value="69" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="196" />
+          <entry key="YAML" value="497" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -75,74 +95,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/java/com/sunny/springcloud/springcloudservicegatewayfilter/SpringcloudServiceGatewayFilterApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/controller/ServiceFeignController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="28" column="14" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1065#1066#0" expanded="true" />
-                <element signature="e#1117#1118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/SpringcloudServiceFeignApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/ScheduleHiService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-feign/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-            </state>
-          </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/SpringcloudServiceRibbonApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/controller/ServiceRibbonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="21">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -184,14 +153,28 @@
         <option value="$PROJECT_DIR$/springcloud-service-feign/src/test/java/com/sunny/springcloud/springcloudservicefeign/SunnyTest.java" />
         <option value="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/controller/ServiceFeignController.java" />
         <option value="$PROJECT_DIR$/springcloud-eureka-server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/springcloud-service-ribbon/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/SpringcloudServiceRibbonApplication.java" />
         <option value="$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/service/HelloService.java" />
         <option value="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/impl/ScheduleHiServiceHystrix.java" />
         <option value="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/SpringcloudServiceFeignApplication.java" />
-        <option value="$PROJECT_DIR$/springcloud-service-feign/pom.xml" />
         <option value="$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/ScheduleHiService.java" />
         <option value="$PROJECT_DIR$/springcloud-service-feign/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-predicate/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-predicate/src/main/java/com/sunny/springcloud/springcloudservicegatewaypredicate/SpringcloudServiceGatewayPredicateApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-hi/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-predicate/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-config-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/java/com/sunny/springcloud/springcloudservicegatewayfilter/SpringcloudServiceGatewayFilterApplication.java" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -211,13 +194,23 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-service-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springcloud-service-gateway" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="104" />
-    <option name="y" value="54" />
+    <option name="x" value="-60" />
+    <option name="y" value="29" />
     <option name="width" value="1920" />
     <option name="height" value="1200" />
   </component>
@@ -326,117 +319,23 @@
               <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-eureka-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudservicefeign" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudservicefeign" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloudservicefeign" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-feign" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sunny-practice-springcloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sunny-practice-springcloud" type="462c0819:PsiDirectoryNode" />
-              <item name="springcloud-service-ribbon" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TPME_LQBusinessMgr" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -456,7 +355,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringcloudServiceFeignApplication">
+  <component name="RunManager" selected="Spring Boot.SpringcloudServiceGatewayFilterApplication">
     <configuration name="SunnyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sunny.springcloud.springcloudservicefeign.SunnyTest" />
       <module name="springcloud-service-feign" />
@@ -466,6 +365,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudConfigClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-config-client" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.configclient.SpringcloudConfigClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-config-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.springcloudconfigserver.SpringcloudConfigServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -484,9 +397,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpringcloudServiceHi2Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="springcloud-service-hi2" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.springcloudservicehi2.SpringcloudServiceHi2Application" />
+    <configuration name="SpringcloudServiceGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-service-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.springcloudservicegateway.SpringcloudServiceGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudServiceGatewayFilterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-service-gateway-filter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.springcloudservicegatewayfilter.SpringcloudServiceGatewayFilterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringcloudServiceGatewayPredicateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-service-gateway-predicate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.springcloudservicegatewaypredicate.SpringcloudServiceGatewayPredicateApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -505,13 +433,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringcloudServiceZuulApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springcloud-service-zuul" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sunny.springcloud.springcloudservicezuul.SpringcloudServiceZuulApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.SpringcloudServiceRibbonApplication" />
       <item itemvalue="Spring Boot.SpringcloudEurekaServerApplication" />
       <item itemvalue="Spring Boot.SpringcloudServiceHiApplication" />
-      <item itemvalue="Spring Boot.SpringcloudServiceHi2Application" />
       <item itemvalue="Spring Boot.SpringcloudServiceFeignApplication" />
+      <item itemvalue="Spring Boot.SpringcloudConfigServerApplication" />
+      <item itemvalue="Spring Boot.SpringcloudServiceZuulApplication" />
+      <item itemvalue="Spring Boot.SpringcloudServiceGatewayApplication" />
+      <item itemvalue="Spring Boot.SpringcloudConfigClientApplication" />
+      <item itemvalue="Spring Boot.SpringcloudServiceGatewayPredicateApplication" />
       <item itemvalue="Application.SunnyTest" />
+      <item itemvalue="Spring Boot.SpringcloudServiceGatewayFilterApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -539,16 +479,65 @@
       <workItem from="1541383285435" duration="1031000" />
       <workItem from="1543221756018" duration="1218000" />
       <workItem from="1543374217748" duration="5485000" />
+      <workItem from="1548059726030" duration="3621000" />
+      <workItem from="1548123314582" duration="1968000" />
+      <workItem from="1548213684791" duration="1226000" />
+      <workItem from="1548318777351" duration="502000" />
+      <workItem from="1548382488396" duration="534000" />
+      <workItem from="1548383126722" duration="3107000" />
+      <workItem from="1550109544612" duration="2567000" />
+      <workItem from="1550454567845" duration="1192000" />
+      <workItem from="1550465807024" duration="595000" />
+      <workItem from="1550484779977" duration="256000" />
+      <workItem from="1550485184127" duration="817000" />
+      <workItem from="1550486414891" duration="1525000" />
+      <workItem from="1550725832966" duration="1210000" />
+      <workItem from="1550811030978" duration="614000" />
+      <workItem from="1550830668589" duration="1218000" />
+      <workItem from="1550886003452" duration="587000" />
+      <workItem from="1551060175093" duration="1185000" />
+      <workItem from="1551145183843" duration="1207000" />
+      <workItem from="1551170661595" duration="13508000" />
     </task>
+    <task id="LOCAL-00001" summary="修改pom文件">
+      <created>1548059858473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548059858473</updated>
+    </task>
+    <task id="LOCAL-00002" summary="新增springcloud-service-gateway-predicate">
+      <created>1548061099828</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548061099828</updated>
+    </task>
+    <task id="LOCAL-00003" summary="新增springcloud-service-gateway-predicate的application">
+      <created>1548066569732</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548066569732</updated>
+    </task>
+    <task id="LOCAL-00004" summary="修改pom文件">
+      <created>1548068036226</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1548068036226</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16758000" />
+    <option name="totallyTimeSpent" value="54197000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18550107" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21162046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -556,16 +545,16 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="JRebel" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32940018" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3298077" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.30355427" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30776796" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Spring" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32851636" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3284169" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32851636" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -579,7 +568,7 @@
       <window_info anchor="right" id="Database" order="4" weight="0.32995737" />
       <window_info anchor="right" id="Bean Validation" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.17697228" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.0858209" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,36 +577,16 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增springcloud-service-gateway-predicate" />
+    <MESSAGE value="新增springcloud-service-gateway-predicate的application" />
+    <MESSAGE value="修改pom文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改pom文件" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springcloud-service-hi2/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-hi2/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-hi2/src/main/java/com/sunny/springcloud/springcloudservicehi2/controller/ServiceHiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-hi/src/main/java/com/sunny/springcloud/springcloudservicehi/controller/ServiceHiController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="30" column="22" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-hi2/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-service-hi2/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/springcloud-service-hi2/src/main/java/com/sunny/springcloud/springcloudservicehi2/controller/ServiceHiController.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-eureka-client/2.0.2.RELEASE/spring-cloud-netflix-eureka-client-2.0.2.RELEASE.jar!/org/springframework/cloud/netflix/eureka/EurekaClientAutoConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
@@ -641,13 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/SpringcloudServiceRibbonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-service-hi/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -658,10 +620,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="34" column="15" selection-start-line="34" selection-start-column="15" selection-end-line="34" selection-end-column="15" />
-          <folding>
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#971#972#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/impl/ScheduleHiServiceHystrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/controller/ServiceFeignController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="28" column="14" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/SpringcloudServiceFeignApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-ribbon/src/main/java/com/sunny/springcloud/springcloudserviceribbon/SpringcloudServiceRibbonApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -672,74 +665,225 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-ribbon/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="28" selection-start-line="28" selection-end-line="32" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/controller/ServiceFeignController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="28" column="14" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1065#1066#0" expanded="true" />
-            <element signature="e#1117#1118#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="25" column="56" lean-forward="true" selection-start-line="25" selection-start-column="56" selection-end-line="25" selection-end-column="56" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/SpringcloudServiceFeignApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/impl/ScheduleHiServiceHystrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/java/com/sunny/springcloud/springcloudservicefeign/service/ScheduleHiService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway/src/main/java/com/sunny/springcloud/springcloudservicegateway/config/MyRoutesConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config-client/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-hi/src/main/java/com/sunny/springcloud/springcloudservicehi/controller/ServiceHiController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-hi/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-ribbon/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway/src/main/java/com/sunny/springcloud/springcloudservicegateway/controller/GatewayController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-zuul/src/main/java/com/sunny/springcloud/springcloudservicezuul/filter/MyZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-zuul/src/main/java/com/sunny/springcloud/springcloudservicezuul/SpringcloudServiceZuulApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-zuul/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-zuul/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-predicate/src/main/java/com/sunny/springcloud/springcloudservicegatewaypredicate/SpringcloudServiceGatewayPredicateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springcloud-service-feign/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server/src/main/java/com/sunny/springcloud/springcloudeurekaserver/SpringcloudEurekaServerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="126">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config/config-client-dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config-server/src/main/java/com/sunny/springcloud/springcloudconfigserver/SpringcloudConfigServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-eureka-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-config-client/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="30" column="21" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway/src/main/java/com/sunny/springcloud/springcloudservicegateway/SpringcloudServiceGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/java/com/sunny/springcloud/springcloudservicegatewayfilter/SpringcloudServiceGatewayFilterApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="65" selection-start-line="5" selection-start-column="65" selection-end-line="5" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-predicate/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-filter/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-predicate/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springcloud-service-gateway-filter/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
         </state>
       </provider>
     </entry>

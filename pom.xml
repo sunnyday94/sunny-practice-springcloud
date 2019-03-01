@@ -20,6 +20,7 @@
         <module>springcloud-config-client</module>
         <module>springcloud-service-gateway</module>
         <module>springcloud-service-gateway-predicate</module>
+        <module>springcloud-service-gateway-filter</module>
     </modules>
 
     <parent>
