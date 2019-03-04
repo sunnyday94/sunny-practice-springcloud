@@ -2,10 +2,11 @@ server:
   port: 8772
 spring:
   profiles:
-    active: rewritepath_route
+    active: elapse_route
   application:
     name: gateway-filter
 ---
+# 过滤器:添加请求头
 spring:
   cloud:
     gateway:
@@ -18,6 +19,7 @@ spring:
         - AddRequestHeader=X-Request-Foo, Bar
   profiles: add_request_header_route
 ---
+# 过滤器:重写路径
 spring:
   cloud:
     gateway:
@@ -29,3 +31,17 @@ spring:
         filters:
         - RewritePath=/sunny/(?<segment>.*), /$\{segment}
   profiles: rewritepath_route
+
+---
+# 此处配置了自定义过滤器工厂,走自定义过滤器工厂配置
+spring:
+  cloud:
+    gateway:
+      routes:
+      - id: elapse_route
+        uri: http://httpbin.org:80/get
+        filters:
+        - RequestTime=false
+        predicates:
+        - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+  profiles: elapse_route

@@ -16,15 +16,17 @@ import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
 
 /**
- * @description
+ * @description 自定义Gateway过滤器
  * @author sunny
  * @create 2019/3/4
  * @since 1.0.0
  */
 @Slf4j
-public class RequestTimeFilter implements GatewayFilter, Ordered {
+public class RequestTimeGatewayFilter implements GatewayFilter, Ordered {
 
     private static final String REQUEST_TIME_BEGIN = "requestTimeBegin";
+
+    public RequestTimeGatewayFilter(){}
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
