@@ -32,7 +32,7 @@ public class MyRouteConfig {
                     p.path("/customer/**")
                     .filters(f ->
                                 f.filter(new RequestTimeFilter())
-                                .addRequestHeader("X-Response-Default-Foo", "Default-Bar")
+                                .addRequestHeader("X-Response-Default-Name", "Default-Sunny")
                     )
                     .uri("http://httpbin.org:80/get").order(0).id("customer_filter_router")
 
