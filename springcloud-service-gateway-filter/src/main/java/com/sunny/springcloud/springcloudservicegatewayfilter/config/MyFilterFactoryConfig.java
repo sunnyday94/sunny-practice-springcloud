@@ -1,7 +1,7 @@
 /**
- * FileName: RequestGatewayFilterFactoryConfig
+ * FileName: FilterFactoryConfig
  * Author:   sunny
- * Date:     2019/3/4 16:34
+ * Date:     2019/3/5 14:21
  * History:
  * <author>          <time>          <version>          <desc>
  * 作者姓名           修改时间           版本号              描述
@@ -15,14 +15,15 @@ import org.springframework.context.annotation.Configuration;
 /**
  * @description
  * @author sunny
- * @create 2019/3/4
+ * @create 2019/3/5
  * @since 1.0.0
  */
 @Configuration
-public class RequestTimeGatewayFilterFactoryConfig {
+public class MyFilterFactoryConfig {
 
     @Bean
-    public RequestTimeGatewayFilterFactory myGatewayFilterFactory(){
+    public RequestTimeGatewayFilterFactory myRequestTimeGatewayFilterFactory(){
         return new RequestTimeGatewayFilterFactory();
     }
+
 }
