@@ -21,12 +21,13 @@
         <module>springcloud-service-gateway</module>
         <module>springcloud-service-gateway-predicate</module>
         <module>springcloud-service-gateway-filter</module>
+        <module>springcloud-service-sentinel</module>
     </modules>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.0.6.RELEASE</version>
+        <version>2.1.4.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
@@ -34,7 +35,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Finchley.SR1</spring-cloud.version>
+        <spring-cloud.version>Greenwich.SR1</spring-cloud.version>
     </properties>
 
     <dependencies>
@@ -72,6 +73,14 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!--<dependency>-->
+                <!--    <groupId>org.springframework.cloud</groupId>-->
+                <!--    <artifactId>spring-cloud-alibaba-dependencies</artifactId>-->
+                <!--    <version>0.9.0.RELEASE</version>-->
+                <!--    <type>pom</type>-->
+                <!--    <scope>import</scope>-->
+            <!--</dependency>-->
         </dependencies>
     </dependencyManagement>
 

@@ -1,0 +1,26 @@
+server:
+  port: 8773
+
+spring:
+  application:
+    name: service-sentinel
+#  cloud:
+#    sentinel:
+#      transport:
+#        port: 8719
+#        dashboard: localhost:8080
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+#sentinel控制台配置
+sentinel:
+  dashboard:
+    auth:
+      password: sunny
+      username: sunny
+    server: 127.0.0.1:8080
+
+
