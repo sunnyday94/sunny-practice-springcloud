@@ -16,7 +16,5 @@ package com.sunny.springcloud.servicesentinel.service;
  */
 public interface TestService {
 
-    void test();
-
-    String hello(Long t);
+    String test();
 }

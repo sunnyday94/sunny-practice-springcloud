@@ -8,8 +8,9 @@ package com.sunny.springcloud.servicesentinel.service.impl;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
 import com.sunny.springcloud.servicesentinel.block.TestServiceBlockHandler;
-import com.sunny.springcloud.servicesentinel.fallback.TestServiceFallback;
 import com.sunny.springcloud.servicesentinel.service.TestService;
+
+import org.springframework.stereotype.Service;
 
 /**
  * 〈一句话功能简述〉<br> 
@@ -19,23 +20,15 @@ import com.sunny.springcloud.servicesentinel.service.TestService;
  * @create 2019/7/21
  * @since 1.0.0
  */
+@Service
 public class TestServiceImpl implements TestService {
 
     @Override
     @SentinelResource(value = "test",blockHandler = "testBlockHandler",
             blockHandlerClass = TestServiceBlockHandler.class)
-    public void test() {
-        System.out.println("Test");
+    public String test() {
+        System.out.println("Hello Sentinel!");
+        return "Hello Sentinel!";
     }
 
-
-    @Override
-    @SentinelResource(value="hello",fallback = "helloFallback",
-            fallbackClass = TestServiceFallback.class)
-    public String hello(Long t) {
-        if (t < 0) {
-            throw new IllegalArgumentException("invalid arg");
-        }
-        return String.format("Hello at %d", t);
-    }
 }
