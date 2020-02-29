@@ -21,3 +21,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: config-server  # 自定义服务名称信息
+    prefer-ip-address: true #访问路径可以显示ip地址

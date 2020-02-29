@@ -9,6 +9,10 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://localhost:8761/eureka/
+  instance:
+    instance-id: service-feign  # 自定义服务名称信息
+    prefer-ip-address: true #访问路径可以显示ip地址
+
 # 开启断路器
 feign:
   hystrix:
