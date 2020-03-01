@@ -1,5 +1,8 @@
 package com.sunny.springcloud.springcloudserviceribbon;
 
+import com.netflix.loadbalancer.IRule;
+import com.netflix.loadbalancer.RandomRule;
+
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -28,5 +31,18 @@ public class SpringcloudServiceRibbonApplication {
     @LoadBalanced
     public RestTemplate restTemplate(){
         return new RestTemplate();
+    }
+    
+    
+    /* *
+     * @Author sunny
+     * @Description  负载均衡默认是轮询，这里手动指定为随机
+     * @Date 21:22 2020/3/1
+     * @Param []
+     * @return com.netflix.loadbalancer.IRule
+     **/
+    @Bean
+    public IRule myRule(){
+        return new RandomRule();
     }
 }
