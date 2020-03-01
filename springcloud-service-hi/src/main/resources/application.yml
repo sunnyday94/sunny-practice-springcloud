@@ -16,7 +16,7 @@ eureka:
 #info内容构建
 info:
   app.name: service-hi
+  app.username: sunny
   company.name: 上海鸭嘴兽网络科技有限公司
-  company.username: sunny
   build.artifactId: ${project.artifactId}$
   build.version: ${project.version}$
