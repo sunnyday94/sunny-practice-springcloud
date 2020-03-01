@@ -12,3 +12,11 @@ eureka:
   instance:
     instance-id: service-hi  # 自定义服务名称信息
     prefer-ip-address: true  #访问路径可以显示ip地址
+
+#info内容构建
+info:
+  app.name: service-hi
+  company.name: 上海鸭嘴兽网络科技有限公司
+  company.username: sunny
+  build.artifactId: ${project.artifactId}$
+  build.version: ${project.version}$
