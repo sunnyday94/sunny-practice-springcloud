@@ -9,6 +9,7 @@
 package com.sunny.springcloud.springcloudservicefeign.service;
 
 import com.sunny.springcloud.springcloudservicefeign.service.impl.ScheduleHiServiceHystrix;
+
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
