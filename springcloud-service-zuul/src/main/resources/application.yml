@@ -20,3 +20,5 @@ zuul:
     feignService:
       path: /feignService/**
       serviceId: service-feign
+  ignored-services: "*"    # 忽略服务真实地址
+  prefix: /sunny-cloud  #加统一前缀
